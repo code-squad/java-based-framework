@@ -1,13 +1,12 @@
 package user.web;
 
+import user.dao.DataBase;
+import user.domain.User;
 import was.http.HttpRequest;
 import was.http.HttpResponse;
 import was.http.HttpSession;
 
 import java.util.Collection;
-
-import user.domain.User;
-import user.dao.DataBase;
 
 public class ListUserController extends AbstractController {
     @Override

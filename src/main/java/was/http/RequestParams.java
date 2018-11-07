@@ -1,12 +1,11 @@
 package was.http;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import was.util.HttpRequestUtils;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class RequestParams {
 	private static final Logger log = LoggerFactory.getLogger(RequestParams.class);

@@ -2,7 +2,6 @@ package core.nmvc;
 
 import com.google.common.collect.Maps;
 import core.annotation.RequestMethod;
-import was.http.HttpMethod;
 import was.http.HttpRequest;
 
 import java.util.Map;

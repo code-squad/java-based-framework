@@ -1,8 +1,8 @@
 package was.util;
 
-import java.util.UUID;
-
 import org.junit.Test;
+
+import java.util.UUID;
 
 public class UUIDTest {
     @Test

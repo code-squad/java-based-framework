@@ -1,11 +1,10 @@
 package user.dao;
 
+import com.google.common.collect.Maps;
+import user.domain.User;
+
 import java.util.Collection;
 import java.util.Map;
-
-import com.google.common.collect.Maps;
-
-import user.domain.User;
 
 public class DataBase {
     private static Map<String, User> users = Maps.newHashMap();

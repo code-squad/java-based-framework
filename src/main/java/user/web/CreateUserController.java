@@ -1,13 +1,11 @@
 package user.web;
 
-import was.http.HttpRequest;
-import was.http.HttpResponse;
-import user.domain.User;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import user.dao.DataBase;
+import user.domain.User;
+import was.http.HttpRequest;
+import was.http.HttpResponse;
 
 public class CreateUserController extends AbstractController {
     private static final Logger log = LoggerFactory.getLogger(CreateUserController.class);

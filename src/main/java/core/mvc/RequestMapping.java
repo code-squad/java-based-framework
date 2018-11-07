@@ -1,12 +1,12 @@
 package core.mvc;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import user.web.Controller;
 import user.web.CreateUserController;
 import user.web.ListUserController;
 import user.web.LoginController;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class RequestMapping {
     private static Map<String, Controller> controllers = new HashMap<String, Controller>();

@@ -1,8 +1,8 @@
 package was.http;
 
-import java.util.Map;
-
 import was.util.HttpRequestUtils;
+
+import java.util.Map;
 
 public class HttpCookie {
     private Map<String, String> cookies;

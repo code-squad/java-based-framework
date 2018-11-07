@@ -1,7 +1,5 @@
 package was.http;
 
-import static org.junit.Assert.*;
-
 import core.test.BaseTest;
 import org.junit.Test;
 
