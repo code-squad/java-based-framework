@@ -1,5 +1,6 @@
 package was;
 
+import core.mvc.RequestMapping;
 import was.http.HttpRequest;
 import was.http.HttpResponse;
 import was.http.HttpSessions;
